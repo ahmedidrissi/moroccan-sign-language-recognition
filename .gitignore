@@ -1,1 +1,4 @@
-data/raw/alphabets
+.venv
+
+data/raw/alphabets/
+*.pickle
