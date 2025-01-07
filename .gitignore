@@ -4,3 +4,5 @@ data/raw/alphabets/
 *.pickle
 
 __pycache__/
+
+*.npy
