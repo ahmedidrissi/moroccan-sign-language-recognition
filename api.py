@@ -1,11 +1,10 @@
-from fastapi import FastAPI, WebSocket, UploadFile, File, HTTPException
+from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import cv2 
 from msl import MSLModel
 import os
 import shutil
-import time
 
 model = MSLModel('./model/model.pickle')
 
